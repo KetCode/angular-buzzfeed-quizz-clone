@@ -1,55 +1,113 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Qual deve ser seu apelido?",
+  "description": "Daremos a você um apelido fofo com base em suas associações com cores.",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Vermelho",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Amor", "alias":"A"},
+        {"id": 2, "name":"Raiva", "alias":"B"},
+        {"id": 3, "name":"Sangue", "alias":"C"},
+        {"id": 4, "name":"Rosas", "alias":"D"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Laranja",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Pôr do sol", "alias":"A"},
+        {"id": 2, "name":"Calor", "alias":"B"},
+        {"id": 3, "name":"Basquete", "alias":"C"},
+        {"id": 4, "name":"Dificultade", "alias":"D"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Amarelo",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Felicidade", "alias":"A"},
+        {"id": 2, "name":"Amizade", "alias":"B"},
+        {"id": 3, "name":"Criatividade", "alias":"C"},
+        {"id": 4, "name":"Força", "alias":"D"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Verde",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Oceano", "alias":"A"},
+        {"id": 2, "name":"Inveja", "alias":"B"},
+        {"id": 3, "name":"Harmonia", "alias":"C"},
+        {"id": 4, "name":"Equilíbrio", "alias":"D"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Azul",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Morte", "alias":"A"},
+        {"id": 2, "name":"Água", "alias":"B"},
+        {"id": 3, "name":"Confiança", "alias":"C"},
+        {"id": 4, "name":"Tranquilidade", "alias":"D"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Roxo",
+      "options":[
+        {"id": 1, "name":"Poder", "alias":"A"},
+        {"id": 2, "name":"Feroz", "alias":"B"},
+        {"id": 3, "name":"Lealdade", "alias":"C"},
+        {"id": 4, "name":"Paz", "alias":"D"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Rosa",
+      "options":[
+        {"id": 1, "name":"Cuidado", "alias":"A"},
+        {"id": 2, "name":"Flores", "alias":"B"},
+        {"id": 3, "name":"Inofensivo", "alias":"C"},
+        {"id": 4, "name":"Retorcido", "alias":"D"}
+      ]
+    },
+    {
+      "id":8,
+      "question": "Verde-Azulado",
+      "options":[
+        {"id": 1, "name":"Oceano", "alias":"A"},
+        {"id": 2, "name":"Felicidade", "alias":"B"},
+        {"id": 3, "name":"Serenidade", "alias":"C"},
+        {"id": 4, "name":"Deserto", "alias":"D"}
+      ]
+    },
+    {
+      "id":9,
+      "question": "Marrom",
+      "options":[
+        {"id": 1, "name":"Terra", "alias":"A"},
+        {"id": 2, "name":"Lama", "alias":"B"},
+        {"id": 3, "name":"Ursinhos de pelúcia", "alias":"C"},
+        {"id": 4, "name":"Casca", "alias":"D"}
+      ]
+    },
+    {
+      "id":10,
+      "question": "Branco",
+      "options":[
+        {"id": 1, "name":"Pureza", "alias":"A"},
+        {"id": 2, "name":"Pombos", "alias":"B"},
+        {"id": 3, "name":"Neve", "alias":"C"},
+        {"id": 4, "name":"Calor", "alias":"D"}
       ]
     }
+
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Seu apelido é Bubbles! Você é divertido, gentil, feliz, brilhante e positivo. Faz outras pessoas felizes sempre que você está por perto e você sempre tem um sorriso no rosto. Continue sendo você, Bubbles.",
+    "B": "Seu apelido é Twix! Às vezes você pode parecer um pouco intenso, mas sempre tem boas intenções. Seu senso de humor é tão grande que atrai as pessoas até você. Apenas tente lembrar de não levar as coisas tão a sério e se divertir de vez em quando. Caso contrário, continue sendo você, Twix!",
+    "C": "Seu apelido é Blux! Você pode parecer tímido quando as pessoas o conhecem, mas quando alguém o conhece, você fica muito extrovertido. Você sempre faz seus amigos mais próximos sorrirem e rirem com sua personalidade rosada. Continue sendo você, Blux!",
+    "D": "Seu apelido é Bop Bop! Você é uma pessoa clássica e popular que adora esportes, sair com os amigos e curtir a natureza. Continue sendo você, Bop Bop!"
   }
 }
