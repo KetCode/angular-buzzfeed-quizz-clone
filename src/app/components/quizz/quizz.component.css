@@ -1,3 +1,7 @@
+* {
+  font-family: sans-serif;
+}
+
 .quizz__container{
   width: 80%;
   margin: auto;
@@ -16,54 +20,55 @@
   margin-top: 20px;
 }
 
+.quizz_logo > p{
+  margin-top: 10px;
+}
+
 .quizz_questions{
   display: flex;
   justify-content: center;
   align-items: center;
-  border:1px solid #4224d9;
   border-radius: 8px;
   background-color: #644ED2;
-  width: 100%;
+  width: 80%;
   height: 200px;
   font-size: 20px;
-  font-family: 'Segoe UI';
-  margin-bottom: 20px;
+  margin: 25px auto;
 }
 
 .quizz_options{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
-  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 11rem;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  padding: 0 10% 50px;
 }
 
 .btn-option{
-  background-color: transparent;
+  background-color: #FFFFFF;
   border-radius: 8px;
-  border: 1px solid #18ab29;
-  width: 50%;
-  display: inline-block;
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 17px;
-  padding: 16px 31px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #2f6627;
+  font-size: 32px;
+  font-weight: bold;
+  transition: all 1s ease;
+  transform: scale(1);
 }
 
 .btn-option:hover{
-  background-color: #5cbf2a;
+  transform: scale(1.05) perspective(1px)
 }
 
 .btn-option:active{
   position: relative;
   top:1px;
+
 }
 
 .quizz_results{
-  width: 100%;
+  width: 70%;
   height: 350px;
   background-color: #1F0539;
   border-radius: 10px;
@@ -72,4 +77,35 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 25px auto;
 }
+
+.quizz_results > p {
+  padding: 15px 50px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Colors */
+.Vermelho { background-color: #ee3322d9; }
+.Laranja { background-color: #f47f16d9; }
+.Amarelo { background-color: #f8d000d9; }
+.Verde { background-color: #00cc24d9; }
+.Azul { background-color: #0565efd9; }
+.Roxo { background-color: #9700ddd9; }
+.Rosa { background-color: #f43192d9; }
+.Verde-Azulado { background-color: #0dccb0d9; }
+.Marrom { background-color: #933100d9; }
+.Branco { background-color: #FFFFFF; }
+
+/* Text Colors */
+.VermelhoTXT { color: #ee3322d9; }
+.LaranjaTXT { color: #f47f16d9; }
+.AmareloTXT { color: #f8d000d9; }
+.VerdeTXT { color: #00cc24d9; }
+.AzulTXT { color: #0565efd9; }
+.RoxoTXT { color: #9700ddd9; }
+.RosaTXT { color: #f43192d9; }
+.Verde-AzuladoTXT { color: #0dccb0d9; }
+.MarromTXT { color: #933100d9; }
+.BrancoTXT { color: #000000; }
