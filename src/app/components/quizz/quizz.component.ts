@@ -10,15 +10,16 @@ import quizz_questions from "../../../assets/data/quizz_questions.json"
 export class QuizzComponent implements OnInit {
 
   title:string = ""
+  description:string = ""
 
   questions:any
   questionSelected:any
 
   answers:string[] = []
-  answerSelected:string =""
+  answerSelected:string = ""
 
-  questionIndex:number =0
-  questionMaxIndex:number=0
+  questionIndex:number = 0
+  questionMaxIndex:number= 0
 
   finished:boolean = false
 
@@ -28,6 +29,7 @@ export class QuizzComponent implements OnInit {
     if(quizz_questions){
       this.finished = false
       this.title = quizz_questions.title
+      this.description = quizz_questions.description
 
       this.questions = quizz_questions.questions
       this.questionSelected = this.questions[this.questionIndex]
